@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles do
   get 'landing_page/index'
   root 'landing_page#index'
   
